@@ -9,7 +9,7 @@
 // Для числа 478: (number / 100) * 10 = 4 * 10
 // Console.WriteLine("Исходное число: " + number + " ; 1 и 3 цифра: " + result);
 
-Console.WriteLine("Введлите число:");
+Console.WriteLine("Введите число:");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = ((number % 100) - (number % 10)) / 10;
 if (number >= 100 && number <= 999)
