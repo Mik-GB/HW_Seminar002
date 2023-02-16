@@ -19,8 +19,9 @@ if (number >= 1000000 && number <= 9999999)
 if (number >= 1 && number < 100)
 {
   Console.WriteLine("Третьей цифры нет");
+  return;
 }
-if (number > 9999999)
+if (number > 9999999 || number <1000000)
 {
   Console.WriteLine("Введено некорректное число");
 }
